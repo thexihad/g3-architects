@@ -1,0 +1,398 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* #################### HEADER ################### */
+.header {
+    background: rgba(255, 144, 14, 0.1);
+    height: 1100px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+    padding-left: 30px;
+    color:#424242 ;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+.navbar .logo{
+    font-size: 30px;
+}
+
+.intro {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.welcome-text{
+
+    font-size: 50px;
+}
+.welcome-text-details {
+    padding-bottom: 15px;
+    color:  #727272;
+    padding-top: 2rem;
+}
+
+.btn {
+    color: rgb(247, 247, 247);
+    background-color: rgb(250, 142, 0);
+    height: 3rem;
+    width: 9rem;
+    border-radius: 7px;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.intro-img img {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+
+
+/* ################ features section ############################# */
+
+.picture {
+    width: 342px;
+    height: 342px;
+}
+.features{
+    display: flex;
+    margin-top: 3rem;
+    position: relative;
+    
+}
+.quick-list-text{
+    color: #918f8d;
+}
+.feactures-text{
+    color: rgb(255, 174, 0);
+}
+
+.featueslist-head,.about-features,.explore-more{
+    margin-bottom: 2rem;
+}
+
+.features-list{
+
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+   
+}
+.features-pic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+
+
+/* ##################### loving features section ################  */
+.device{
+    background-color: #FFFFFF;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 3px 0px rgb(66, 64, 64);
+}
+
+.features-details-header,.features-details-para{
+    margin-bottom: 2rem;
+}
+
+.features-details-header{
+    
+    border-left: 5px solid rgb(255, 174, 0);
+    padding-left: 1rem;
+}
+.client-img{
+    position: relative;
+    margin-left: 5rem;
+    
+}
+
+.client-img .experience-btn{
+    position: absolute;
+    top: 85%;
+    left: 6%;
+    transform: translate(-50%,-50%);
+    width: 10rem;
+    height: 10rem;
+    background: #FF900E;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+.ten-years{
+    font-size:xx-large;
+
+}
+.architect-img img{
+    position: relative;
+    height: 650px;
+    width:500px;
+}
+
+
+.loving-features{
+    margin-top: 3rem;
+    display: flex;
+
+    
+}
+
+
+/* ################## facts section ##################### */
+.fact-header,
+.fact-txt {
+    margin-top: 2rem;
+
+}
+
+
+.fact-item {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(233, 206, 124);
+    border-radius: 7px;
+    height: 8rem;
+    width: 8rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    justify-content: center;
+    transition: backgroud-color 1s ease 1s;
+}
+
+.fact-items {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.fact-item:hover{
+    background-color: rgb(248, 203, 0);
+    height: 150px;
+    width: 150px;
+
+}
+
+
+/* ########################### sponsors section ############# */
+.sponsors {
+    text-align: center;
+}
+
+.sponsor-header,
+.sponsor-txt,
+.sponsor-icons {
+    margin-bottom: 2rem;
+
+}
+
+.sponsor-icon {
+    width: 152.51px;
+    height: 50px;
+}
+
+.sponsor-icons {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-between;
+    column-gap: 5rem;
+    margin-top: 1rem;
+}
+
+/* ################ contact section #################### */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 39, 39);
+    
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 3rem; */
+
+}
+
+.contact button {
+    margin-top: 1rem;
+}
+
+/* ################ footer section #################### */
+
+.footer {
+    background-color: rgb(155, 130, 130);
+    height: 10vh;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+
+
+
+
+@media screen and (max-width: 567px) 
+{
+
+  
+
+    /* ################### header section ######################### */
+    .header {
+        background-color: #f3e2cf;
+        height: 900px;
+    }
+    .nav-items {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-top: 1rem;
+    
+    }
+    
+    
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-top: 20px;
+        
+    
+    }
+    /* ################ features section ############################# */
+    .features{
+        margin-top: 3rem;
+        position: relative;
+    }
+    .features-pic{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem;
+    }
+    .features-list{
+    
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin-top: 10rem;
+        padding-top: 20px;
+       
+    }
+    
+
+    /* ##################### loving features section ################  */
+    .loving-features{
+        margin-top: 20rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .ten-years{
+        font-size:xx-large;
+    
+    }
+    .architect-img img{
+        display: flex;
+        align-items: center;
+        
+        height: 100%;
+        width:100%;
+        
+    }
+
+    .client-img{
+        position: relative;
+        margin-left: 0;
+        
+    }
+    .client-img .experience-btn{
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 8rem;
+        height: 4rem;
+        background: #FF900E;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 2.5rem;
+        
+    }
+
+    .ten-years{
+        font-size:large;
+    
+    }
+
+
+    /* ############# fact section ################## */
+    .fact-items {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        align-items: center;
+    
+    }
+    .facts{
+        text-align: center;
+        margin-top: 6rem;
+    }
+
+
+
+    /* ############################ spocor section ################### */
+    .sponsor-icons {
+        display: flex;
+        flex-direction: column;
+        
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        
+        
+    }
+    .sponsor-icon{
+        margin-bottom: 2rem;
+    }
+
+}
